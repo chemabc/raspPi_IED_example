@@ -64,8 +64,8 @@ for elemento in listaArchivos:
 print("")
 print("EJEMPLO DE BUCLE FOR PARA HACER SUMA DE 10 NUMEROS")
 lista10PrimerosNumeros = range(1,11)
-print("Lista de numeros: ", end='') #Imprime sin salto de línea
-print(*lista10PrimerosNumeros, sep=",") # Con el * se indica que imprima cada elementos de la lista, y el "sep" indica el separador entre cada elemento de la lista
+print("Lista de numeros: ") #Imprime sin salto de línea
+print(lista10PrimerosNumeros) 
 resultadoSuma = 0
 for i in lista10PrimerosNumeros:
     resultadoSuma = resultadoSuma + i
