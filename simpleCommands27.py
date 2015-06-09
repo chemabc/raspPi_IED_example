@@ -44,6 +44,12 @@ print("En este directorio hay estos archivos:", listaArchivos)
 print("Número total de archivos: ", len(listaArchivos))
 print("El primer archivo tiene indice 0 y se accede poniendo listaArchivos[0]:", listaArchivos[0])
 
+print("EJEMPLO DE DICCIONARIO")
+dictNombresEdad = {'ladyGaga': 29, 'julito':71}
+print(dictNombresEdad)
+print("Lady: ", dictNombresEdad['ladyGaga'])
+
+
 #Ejemplo de condiciones:
 # Si pasa la condición X, entonces haz la acción Y. Si no pasa, haz la condición Z.
 # Si en la lista de archivos está el archivo simpleCommands.py, entonces dilo, si no di que no se encuentra.
@@ -78,7 +84,7 @@ print("Resultado total suma: " + str(resultadoSuma))
 #La forma que tienen es la siguiente:
 # {"key_name":"dato"}
 print("")
-print("EJEMPLO DICCIONARIO")
+print("EJEMPLO DE FOR CON DICCIONARIO")
 ejemploDiccionario ={"juan": "cinturon negro", "miguel":"cinturon blanco", "damian":"cinturon verde"}
 for elemento in ejemploDiccionario.items():
     print("Clave: " + elemento[0] + ", dato: "  + elemento[1])
