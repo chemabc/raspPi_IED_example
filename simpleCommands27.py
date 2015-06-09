@@ -31,7 +31,7 @@ print("Trabajo con la version de Python:", versionPython)
 #Ejemplo de donde estamos
 import os
 directorioActual = os.getcwd()
-print("Estoy en directorioActual")
+print("Estoy en " + str(directorioActual))
 
 
 
@@ -43,6 +43,12 @@ listaArchivos = os.listdir(directorioActual)
 print("En este directorio hay estos archivos:", listaArchivos)
 print("Número total de archivos: ", len(listaArchivos))
 print("El primer archivo tiene indice 0 y se accede poniendo listaArchivos[0]:", listaArchivos[0])
+
+print("EJEMPLO DE DICCIONARIO")
+dictNombresEdad = {'ladyGaga': 29, 'julito':71}
+print(dictNombresEdad)
+print("Lady: ", dictNombresEdad['ladyGaga'])
+
 
 #Ejemplo de condiciones:
 # Si pasa la condición X, entonces haz la acción Y. Si no pasa, haz la condición Z.
