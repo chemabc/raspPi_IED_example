@@ -84,7 +84,7 @@ print("Resultado total suma: " + str(resultadoSuma))
 #La forma que tienen es la siguiente:
 # {"key_name":"dato"}
 print("")
-print("EJEMPLO DICCIONARIO")
+print("EJEMPLO DE FOR CON DICCIONARIO")
 ejemploDiccionario ={"juan": "cinturon negro", "miguel":"cinturon blanco", "damian":"cinturon verde"}
-for elemento in ejemploDiccionario:
+for elemento in ejemploDiccionario.items():
     print("Clave: " + elemento[0] + ", dato: "  + elemento[1])
