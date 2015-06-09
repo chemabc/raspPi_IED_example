@@ -31,7 +31,7 @@ print("Trabajo con la version de Python:", versionPython)
 #Ejemplo de donde estamos
 import os
 directorioActual = os.getcwd()
-print("Estoy en directorioActual")
+print("Estoy en " + str(directorioActual))
 
 
 
@@ -80,5 +80,5 @@ print("Resultado total suma: " + str(resultadoSuma))
 print("")
 print("EJEMPLO DICCIONARIO")
 ejemploDiccionario ={"juan": "cinturon negro", "miguel":"cinturon blanco", "damian":"cinturon verde"}
-for elemento in ejemploDiccionario:
+for elemento in ejemploDiccionario.items():
     print("Clave: " + elemento[0] + ", dato: "  + elemento[1])

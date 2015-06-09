@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #Trabajar con un archivo de texto
 
-import codecs
+#import codecs
 
 textoAGrabar = "Hola, ¿cómo estás?"
 nombreArchivoTexto = "exampleTextFile.txt"
